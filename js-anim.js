@@ -29,8 +29,6 @@
 
             if (progress < 1) {
                 window.requestAnimationFrame(step);
-            }else{
-                window.cancelAnimationFrame(window.requestAnimationFrame(step));
             }
         };
 
